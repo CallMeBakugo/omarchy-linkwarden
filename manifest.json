@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bakugo.linkwarden",
+  "name": "Linkwarden",
+  "version": "1.0.0",
+  "description": "Save a pasted URL to Linkwarden’s Unorganized collection.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Linkwarden",
+    "description": "Left click to save a link. Right click to configure your server and access token.",
+    "category": "utilities",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "author": "CallMeBakugo",
+  "license": "MIT"
+}
